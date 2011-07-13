@@ -1,3 +1,4 @@
+package br.com.video.entidade;
 
 /**
  * Classe que ira representar um cliente 

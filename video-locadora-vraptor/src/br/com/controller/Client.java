@@ -1,4 +1,4 @@
-package br.com.client;
+package br.com.controller;
 
 import br.com.caelum.vraptor.Resource;
 

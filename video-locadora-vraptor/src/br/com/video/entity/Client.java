@@ -1,4 +1,4 @@
-package br.com.video.entidade;
+package br.com.video.entity;
 
 /**
  * Classe que ira representar um cliente 
@@ -6,6 +6,6 @@ package br.com.video.entidade;
  * @author johny
  *
  */
-public class Cliente {
+public class Client {
 
 }

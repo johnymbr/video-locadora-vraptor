@@ -19,6 +19,7 @@ public class UserController {
 	
 	// CONSTRUTOR
 	public UserController(InterfaceBO<User> userBO){
+		System.out.println("Construi o UserController");
 		this.userBO = userBO;
 	}
 

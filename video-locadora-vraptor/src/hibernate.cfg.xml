@@ -12,5 +12,6 @@
 		
 		<!-- entidades -->
 		<mapping class="br.com.entity.Client" />
+		<mapping class="br.com.entity.MovieRegistration" />
 	</session-factory>
 </hibernate-configuration>

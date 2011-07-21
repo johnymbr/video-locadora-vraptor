@@ -2,6 +2,7 @@ package br.com.video.controller;
 
 import br.com.caelum.vraptor.Resource;
 import br.com.video.bo.InterfaceBO;
+import br.com.video.bo.UserBO;
 import br.com.video.entity.User;
 
 
@@ -19,7 +20,6 @@ public class UserController {
 	
 	// CONSTRUTOR
 	public UserController(InterfaceBO<User> userBO){
-		System.out.println("Construi o UserController");
 		this.userBO = userBO;
 	}
 

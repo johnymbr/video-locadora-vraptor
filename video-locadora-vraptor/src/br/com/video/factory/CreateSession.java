@@ -12,7 +12,6 @@ public class CreateSession implements ComponentFactory<Session> {
 	private final SessionFactory factory;
 	
 	public CreateSession(SessionFactory factory) {
-		System.out.println("Construi o CreateSession");
 		this.factory = factory;
 	}
 	

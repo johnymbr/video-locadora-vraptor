@@ -2,6 +2,7 @@ package br.com.video.bo;
 
 import java.util.List;
 
+import br.com.caelum.vraptor.ioc.Component;
 import br.com.video.dao.InterfaceDAO;
 import br.com.video.entity.User;
 
@@ -11,7 +12,7 @@ import br.com.video.entity.User;
  * @author johny
  *
  */
-
+@Component
 public class UserBO implements InterfaceBO<User> {
 
 	private final InterfaceDAO<User> userDao;

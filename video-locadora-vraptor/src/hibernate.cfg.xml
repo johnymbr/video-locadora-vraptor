@@ -11,7 +11,6 @@
 		<property name="format_sql">true</property>
 		
 		<!-- entidades -->
-		<mapping class="br.com.entity.Client" />
-		<mapping class="br.com.entity.MovieRegistration" />
+		<!--  mapping class="br.com.video.entity.User" / -->
 	</session-factory>
 </hibernate-configuration>
